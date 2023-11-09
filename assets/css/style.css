@@ -1,0 +1,70 @@
+body {
+    background-size: cover;
+    background-image: url("../img/palafito.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.blanco{
+    background: rgba(198, 194, 194, 0.88);
+    border-radius: 2%;
+    margin: 2%;
+    padding: 2%;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1,
+p {
+    color: #fff;
+    /* Color del texto */
+}
+
+ .carousel-inner img {
+     max-height: 500px;
+     object-fit: cover;
+ }
+.carousel-caption {
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 0.75) 5px 0px 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+    text-shadow: rgba(0, 0, 0, 0.75) 5px 0px 10px;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+p {
+    color: #fff;
+    /* Color de texto blanco */
+}
+
+.card-text {
+    color: black;
+}
+#myBtn:hover {
+    background-color: #555;
+}
+.bi-instagram{
+    right: 600px;
+    margin: 10px;
+}
+.navbar-brand{
+    width:120px;
+    height:120px;
+}
